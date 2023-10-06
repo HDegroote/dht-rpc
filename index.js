@@ -277,7 +277,9 @@ class DHT extends EventEmitter {
     const emitClose = !this.destroyed
     this.destroyed = true
     clearInterval(this._tickInterval)
+    console.log('dht-rpc awaits io.destroy')
     await this.io.destroy()
+    console.log('dht-rpc destroy done')
     if (emitClose) this.emit('close')
   }
 
