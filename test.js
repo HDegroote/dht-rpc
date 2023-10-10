@@ -1,5 +1,5 @@
 const test = require('brittle')
-const UDX = require('udx-native')
+const UDX = require('@holepunchto/dummy-udx-native-for-debugging')
 const DHT = require('./')
 
 test('bootstrapper', async function (t) {
