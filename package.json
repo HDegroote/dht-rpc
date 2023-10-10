@@ -18,7 +18,7 @@
     "sodium-universal": "^4.0.0",
     "streamx": "^2.13.2",
     "time-ordered-set": "^1.0.2",
-    "@holepunchto/dummy-udx-native-for-debugging": "^1.7.6"
+    "udx-native": "^1.7.5"
   },
   "devDependencies": {
     "brittle": "^3.0.0",

@@ -1,7 +1,7 @@
 const { EventEmitter } = require('events')
 const Table = require('kademlia-routing-table')
 const TOS = require('time-ordered-set')
-const UDX = require('@holepunchto/dummy-udx-native-for-debugging')
+const UDX = require('udx-native')
 const sodium = require('sodium-universal')
 const c = require('compact-encoding')
 const NatSampler = require('nat-sampler')
